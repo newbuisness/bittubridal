@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bittu Bridal – Lehenga & Sherwani on Rent & Sale | Chandigarh</title>
 
-<title>Bittu Bridal – Lehenga & Sherwani on Rent & Sale</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
 <style>
 
 body{
 margin:0;
-font-family:Arial, sans-serif;
-background:black;
+font-family:'Poppins',sans-serif;
+background:#0e0e0e;
 color:white;
 }
 
 /* TOP BAR */
 
 .topbar{
-background:#8B0000;
+background:#8b0000;
 padding:12px;
 text-align:center;
-font-weight:bold;
+font-weight:600;
 }
 
 .topbar a{
@@ -34,36 +34,33 @@ margin:0 15px;
 /* HEADER */
 
 header{
-background:black;
-padding:15px;
 display:flex;
 justify-content:space-between;
 align-items:center;
-border-bottom:2px solid #D4AF37;
+padding:20px;
+background:black;
+border-bottom:1px solid #b8860b;
 }
 
 .logo{
-color:#D4AF37;
-font-size:22px;
-font-weight:bold;
+font-family:'Playfair Display',serif;
+font-size:24px;
+color:#b8860b;
 }
 
 .call-btn{
-background:#8B0000;
-color:white;
+background:#8b0000;
 padding:10px 20px;
+color:white;
 text-decoration:none;
-border-radius:5px;
+border-radius:4px;
 }
 
 /* HERO */
 
 .hero{
-
-height:500px;
-
-background:url('https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?q=80&w=1400') center/cover;
-
+height:600px;
+background:url('https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?q=80&w=1400') center/cover;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -76,310 +73,250 @@ content:"";
 position:absolute;
 width:100%;
 height:100%;
-background:rgba(0,0,0,0.7);
+background:rgba(0,0,0,0.75);
 }
 
 .hero-content{
 position:relative;
+max-width:800px;
 }
 
 .hero h1{
-color:#D4AF37;
-font-size:40px;
+font-family:'Playfair Display',serif;
+font-size:42px;
+color:#d4af37;
 }
 
 .hero p{
 font-size:18px;
+margin:15px 0;
 }
 
 .hero-btn{
-background:#8B0000;
-padding:15px 30px;
+background:#8b0000;
+padding:14px 28px;
 color:white;
 text-decoration:none;
-border-radius:5px;
-display:inline-block;
-margin-top:15px;
+border-radius:4px;
 }
 
 /* SECTION */
 
-.container{
-padding:40px 20px;
-max-width:1100px;
+.section{
+padding:60px 20px;
+max-width:1200px;
 margin:auto;
 }
 
-.title{
+.section h2{
 text-align:center;
-color:#D4AF37;
-font-size:30px;
-margin-bottom:30px;
+font-family:'Playfair Display',serif;
+color:#d4af37;
+margin-bottom:40px;
+font-size:32px;
 }
 
-/* COLLECTION */
+/* CARDS */
 
 .grid{
-
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-
-gap:20px;
-
+gap:25px;
 }
 
 .card{
-background:#111;
+background:#1a1a1a;
 border-radius:10px;
 overflow:hidden;
-border:1px solid #D4AF37;
+transition:0.3s;
+border:1px solid #333;
+}
+
+.card:hover{
+transform:translateY(-5px);
+border:1px solid #d4af37;
 }
 
 .card img{
 width:100%;
-height:300px;
+height:320px;
 object-fit:cover;
 }
 
 .card h3{
 padding:15px;
 text-align:center;
+color:#d4af37;
 }
 
-/* REVIEW SLIDER */
+/* HIGHLIGHT */
 
-.slider{
-max-width:700px;
-margin:auto;
-overflow:hidden;
-position:relative;
+.highlight{
+background:#8b0000;
+padding:35px;
+text-align:center;
+font-size:20px;
+font-weight:600;
 }
 
-.slide{
-display:none;
-background:#111;
-padding:20px;
+/* REVIEWS */
+
+.review-box{
+background:#1a1a1a;
+padding:25px;
 border-radius:10px;
-border:1px solid #D4AF37;
+display:none;
+border:1px solid #333;
 }
 
-.active{
+.review-box.active{
 display:block;
 }
 
 .stars{
-color:#D4AF37;
-font-size:20px;
-margin-bottom:10px;
+color:#d4af37;
+font-size:18px;
 }
 
-/* MAP */
+/* ADDRESS */
 
-iframe{
-width:100%;
-height:300px;
-border:0;
+.address{
+background:black;
+padding:40px 20px;
+text-align:center;
+border-top:1px solid #b8860b;
 }
 
-/* FLOAT BUTTON */
-
-.float{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#8B0000;
-color:white;
-padding:15px;
-border-radius:50%;
-text-decoration:none;
+.address h3{
+color:#d4af37;
 }
 
 /* FOOTER */
 
 footer{
-background:#111;
-padding:20px;
 text-align:center;
-color:#D4AF37;
-margin-top:20px;
+padding:20px;
+background:#111;
+color:#b8860b;
 }
 
 </style>
-
 </head>
 
 <body>
 
 <div class="topbar">
-
-📞 <a href="tel:+918619936592">Call: 8619936592</a>
-
-|
-
+📞 <a href="tel:+918619936592">Call: 8619936592</a> |
 💬 <a href="https://wa.me/918619936592">WhatsApp</a>
-
 </div>
 
 <header>
-
-<div class="logo">
-
-BITTU BRIDAL – LEHENGA & SHERWANI ON RENT & SALE
-
-</div>
-
-<a href="tel:+918619936592" class="call-btn">
-
-Call Now
-
-</a>
-
+<div class="logo">BITTU BRIDAL – LEHENGA & SHERWANI ON RENT & SALE</div>
+<a href="tel:+918619936592" class="call-btn">Call Now</a>
 </header>
 
 <section class="hero">
-
 <div class="hero-content">
-
-<h1>Luxury Bridal Collection</h1>
-
-<p>Premium Bridal Wear Available for Rent & Sale</p>
-
-<a href="https://wa.me/918619936592" class="hero-btn">
-
-Book on WhatsApp
-
-</a>
-
+<h1>Luxury Bridal & Groom Wear Collection</h1>
+<p>Chandigarh’s Most Affordable & Premium Wedding Store</p>
+<a href="https://wa.me/918619936592" class="hero-btn">Book on WhatsApp</a>
 </div>
-
 </section>
 
-<section class="container">
+<div class="highlight">
+We Provide Chandigarh’s Cheapest Lehenga & Sherwani on Rent with Premium Quality Guarantee
+</div>
 
-<h2 class="title">Our Collection</h2>
-
+<section class="section">
+<h2>Our Collections</h2>
 <div class="grid">
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=800">
+<img src="https://images.unsplash.com/photo-1610030469668-8e9d1d20b7a9?q=80&w=800">
 <h3>Bridal Lehenga Collection</h3>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=800">
+<img src="https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?q=80&w=800">
 <h3>Sherwani Collection</h3>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1610030469668-8e9d1d20b7a9?q=80&w=800">
-<h3>Indo Western Dresses</h3>
+<img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=800">
+<h3>Artificial Jewellery</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1585487000143-3aab0a7d7b4d?q=80&w=800">
+<h3>Women Undergarments</h3>
 </div>
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?q=80&w=800">
-<h3>Party Wear Collection</h3>
+<h3>Party Wear Dresses</h3>
 </div>
 
+<div class="card">
+<img src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?q=80&w=800">
+<h3>Indo Western Collection</h3>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Google Customer Reviews</h2>
+
+<div class="review-box active">
+<div class="stars">★★★★★</div>
+<p>Best bridal store in Chandigarh with premium quality collection and reasonable price.</p>
+<b>Neha Yadav</b>
+</div>
+
+<div class="review-box">
+<div class="stars">★★★★★</div>
+<p>Huge variety of lehenga and sherwani. Staff is very cooperative.</p>
+<b>Aman Kumar</b>
+</div>
+
+<div class="review-box">
+<div class="stars">★★★★★</div>
+<p>Affordable rent prices and amazing fitting. Highly recommended.</p>
+<b>Simran Kaur</b>
+</div>
+
+<div class="review-box">
+<div class="stars">★★★★★</div>
+<p>Best place for wedding dresses and bridal jewellery in Chandigarh.</p>
+<b>Rahul Sharma</b>
 </div>
 
 </section>
 
-<section class="container">
-
-<h2 class="title">Google Customer Reviews</h2>
-
-<div class="slider">
-
-<div class="slide active">
-
-<div class="stars">★★★★★</div>
-
+<section class="address">
+<h3>Our Store Address</h3>
 <p>
-
-Best bridal store in Chandigarh. Premium quality lehenga and sherwani collection available on rent. Staff behavior is very polite and helpful. Highly recommended Bittu Bridal.
-
+Ground Floor, SCO No 38, Sector 41D, Badheri,<br>
+Sector 41, Chandigarh, 160036<br>
+📞 8619936592
 </p>
-
-<b>– Aman Kumar</b>
-
-</div>
-
-<div class="slide">
-
-<div class="stars">★★★★★</div>
-
-<p>
-
-Very beautiful lehenga collection and affordable price. My experience was excellent. Perfect fitting and latest designs available.
-
-</p>
-
-<b>– Neha Yadav</b>
-
-</div>
-
-<div class="slide">
-
-<div class="stars">★★★★★</div>
-
-<p>
-
-Amazing bridal collection. Best place for wedding dresses in Chandigarh. Huge variety and reasonable price.
-
-</p>
-
-<b>– Deeksha Gangwar</b>
-
-</div>
-
-</div>
-
 </section>
-
-<section class="container">
-
-<h2 class="title">Our Location</h2>
-
-<iframe src="https://maps.google.com/maps?q=Sector%2041%20Chandigarh&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-
-</section>
-
-<a href="https://wa.me/918619936592" class="float">
-
-💬
-
-</a>
 
 <footer>
-
 © 2026 Bittu Bridal | Chandigarh
-
 </footer>
 
 <script>
+let r=0;
+let reviews=document.querySelectorAll(".review-box");
 
-let index=0;
-
-const slides=document.querySelectorAll(".slide");
-
-function showSlide(){
-
-slides.forEach(slide=>slide.classList.remove("active"));
-
-slides[index].classList.add("active");
-
-index++;
-
-if(index>=slides.length){
-
-index=0;
-
+function showReview(){
+reviews.forEach(x=>x.classList.remove("active"));
+reviews[r].classList.add("active");
+r++;
+if(r>=reviews.length){r=0;}
 }
-
-}
-
-setInterval(showSlide,4000);
-
+setInterval(showReview,3000);
 </script>
 
 </body>
